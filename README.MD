@@ -1,1 +1,1 @@
-Visit my discord for more[here](https://discord.gg/AJBbTtbEjX).
+Visit my discord for more [here](https://discord.gg/AJBbTtbEjX).
