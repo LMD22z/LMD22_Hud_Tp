@@ -21,7 +21,7 @@ client_scripts {
 ui_page 'nui/nui.html'
 
 files {
-    'mui/nui.html',
+    'nui/nui.html',
     'nui/style.css',
     'nui/script.js',
     'nui/images/*',
