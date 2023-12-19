@@ -1,4 +1,4 @@
-CreatedThread(function()
+CreateThread(function()
     while true do
         Wait(500)
 
@@ -16,7 +16,7 @@ CreatedThread(function()
     end
 end)
 
-CreatedThread(function()
+CreateThread(function()
     while true do
         Wait(1000)
 
