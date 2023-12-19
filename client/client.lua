@@ -56,7 +56,7 @@ end)
 -- Key Bidings
 --
 
-RegisterCommand('+opentelepèort', function()
+RegisterCommand('+openteleporter', function()
     SetNuiFocus(true, true)
 end)
 
