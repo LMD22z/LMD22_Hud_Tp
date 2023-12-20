@@ -9,7 +9,7 @@ window.addEventListener('message', (event) => {
     }
 
     if (data.type === 'ping') {
-        axios.post(`https://${GetParentResourceName()}/pong`,{
+        axios.post(`https://${GetParentResourceName()}/pong`, {
             foo: 'bar',
         }).then((response) => {
             console.log(JSON.stringify(response.data));
@@ -19,14 +19,14 @@ window.addEventListener('message', (event) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('destination-cancel').addEventListener('click', () => {
-        axios.post(`https://${GetParentResourceName()}/releaseFocus`, {})
+        axios.post(`https://${GetParentResourceName()}/releaseFocus`, {});
     });
     
-    document.getElementById('destination-submit').addEventListener('submit', () => {
+    document.getElementById('destination-submit').addEventListener('click', () => {
         axios.post(`https://${GetParentResourceName()}/teleport`, {
-            x : document.getElementById('destination-x').value,
-            y : document.getElementById('destination-y').value,
-            z : document.getElementById('destination-z').value,
+            x: document.getElementById('destination-x').value,
+            y: document.getElementById('destination-y').value,
+            z: document.getElementById('destination-z').value,
         });
     });
 }, false);
