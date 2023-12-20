@@ -19,7 +19,7 @@ window.addEventListener('message', (event) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('destination-cancel').addEventListener('click', () => {
-        axios.post(`https://${GetParentResourceName()}/relaseFocus`, {})
+        axios.post(`https://${GetParentResourceName()}/releaseFocus`, {})
     });
     
     document.getElementById('destination-submit').addEventListener('submit', () => {
