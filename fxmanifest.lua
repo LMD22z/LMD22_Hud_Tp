@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game       'gta5'
 lua54      'yes'
 
-author 'LMD22 Dev'
+author 'LMD22'
 description 'Simple Hud Teleport'
 version '1.0.0'
 
