@@ -61,3 +61,5 @@ RegisterCommand('+openteleporter', function()
 end)
 
 RegisterKeyMapping('+openteleporter', 'Open Teleporter', 'keyboard', 'F5')
+
+--//LMD22 https://discord.gg/AJBbTtbEjX
